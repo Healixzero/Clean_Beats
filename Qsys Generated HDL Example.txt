@@ -1,0 +1,14 @@
+Qsys Generated HDL Example
+
+
+    Clean_Beats_Nios2 u0 (
+        .clk_clk                               (<connected-to-clk_clk>),                               //                        clk.clk
+        .rs232_external_interface_RXD          (<connected-to-rs232_external_interface_RXD>),          //   rs232_external_interface.RXD
+        .rs232_external_interface_TXD          (<connected-to-rs232_external_interface_TXD>),          //                           .TXD
+        .sd_card_external_interface_b_SD_cmd   (<connected-to-sd_card_external_interface_b_SD_cmd>),   // sd_card_external_interface.b_SD_cmd
+        .sd_card_external_interface_b_SD_dat   (<connected-to-sd_card_external_interface_b_SD_dat>),   //                           .b_SD_dat
+        .sd_card_external_interface_b_SD_dat3  (<connected-to-sd_card_external_interface_b_SD_dat3>),  //                           .b_SD_dat3
+        .sd_card_external_interface_o_SD_clock (<connected-to-sd_card_external_interface_o_SD_clock>)  //                           .o_SD_clock
+    );
+	 
+	 
