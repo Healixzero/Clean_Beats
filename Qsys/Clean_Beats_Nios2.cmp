@@ -1,0 +1,12 @@
+	component Clean_Beats_Nios2 is
+		port (
+			clk_clk                               : in    std_logic := 'X'; -- clk
+			rs232_external_interface_RXD          : in    std_logic := 'X'; -- RXD
+			rs232_external_interface_TXD          : out   std_logic;        -- TXD
+			sd_card_external_interface_b_SD_cmd   : inout std_logic := 'X'; -- b_SD_cmd
+			sd_card_external_interface_b_SD_dat   : inout std_logic := 'X'; -- b_SD_dat
+			sd_card_external_interface_b_SD_dat3  : inout std_logic := 'X'; -- b_SD_dat3
+			sd_card_external_interface_o_SD_clock : out   std_logic         -- o_SD_clock
+		);
+	end component Clean_Beats_Nios2;
+
