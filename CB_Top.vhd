@@ -5,7 +5,7 @@ USE IEEE.STD_LOGIC_UNSIGNED.all;
 
 
 ------------------- Entity Declaration for DEO Board --------------------
-entity DE0 is
+entity CB_Top is
     Port (
         --//////////////////    Clock Input     ///////////////////
         CLOCK_50           : in    STD_logic;                      -- 50 MHz
@@ -70,7 +70,7 @@ entity DE0 is
         GPIO0_D             : inout STD_logic_vector(31 downto 0); -- GPIO Connection 0 Data Bus
         GPIO1_CLKIN         : in    STD_logic_vector(1  downto 0);  -- GPIO Connection 1 Clock In Bus
         GPIO1_CLKOUT        : out   STD_logic_vector(1  downto 0);  -- GPIO Connection 1 Clock Out Bus
-        GPIO1_D             : inout STD_logic_vector(31 downto 0)  -- GPIO Connection 1 Data Bus
+        GPIO1_D             : inout STD_logic_vector(31 downto 0);  -- GPIO Connection 1 Data Bus
 
 
     --  --//////////////////    LCD Module 16X2     ///////////////
@@ -84,7 +84,7 @@ entity DE0 is
         UART_TXD            : inout STD_logic;                     -- UART Transmitter
         UART_RXD            : inout STD_logic;                     -- UART Receiver
         UART_CTS            : inout STD_logic;                     -- UART Clear To Send
-        UART_RTS            : inout STD_logic;                     -- UART Request To Send
+        UART_RTS            : inout STD_logic                     -- UART Request To Send
     
     --  --//////////////////    PS2     ///////////////////////////
     --  PS2_KBDAT           : inout STD_logic;                     -- PS2 Keyboard Data
@@ -100,9 +100,9 @@ entity DE0 is
     --  VGA_B               : out   STD_logic_vector(3 downto 0);  -- VGA Blue[3:0]
     );
 
-end DE0;
+end CB_Top;
 
-architecture CB of DE0 is
+architecture a of CB_Top is
 
    component Clean_Beats_Nios2 is
         port (
@@ -115,8 +115,10 @@ architecture CB of DE0 is
             sd_card_external_interface_o_SD_clock : out   std_logic         -- o_SD_clock
         );
     end component Clean_Beats_Nios2;
+	 
+	 begin
 
-    NIOS_Core : component Clean_Beats_Nios2
+    NIOS_Core : Clean_Beats_Nios2
         port map (
             clk_clk                               => CLOCK_50,          --                        clk.clk
             rs232_external_interface_RXD          => UART_RXD,          --   rs232_external_interface.RXD
@@ -127,4 +129,4 @@ architecture CB of DE0 is
             sd_card_external_interface_o_SD_clock => SD_CLK             --                           .o_SD_clock
         );
 
-   
+end a;
