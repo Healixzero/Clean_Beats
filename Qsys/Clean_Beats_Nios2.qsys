@@ -32,7 +32,7 @@
    {
       datum baseAddress
       {
-         value = "12288";
+         value = "22536";
          type = "String";
       }
    }
@@ -40,7 +40,7 @@
    {
       datum baseAddress
       {
-         value = "13312";
+         value = "21504";
          type = "String";
       }
    }
@@ -56,7 +56,7 @@
    {
       datum baseAddress
       {
-         value = "2048";
+         value = "18432";
          type = "String";
       }
    }
@@ -96,7 +96,7 @@
    {
       datum baseAddress
       {
-         value = "4096";
+         value = "12288";
          type = "String";
       }
    }
@@ -115,7 +115,7 @@
  <parameter name="projectName" value="" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1381953328725" />
+ <parameter name="timeStamp" value="1382503166202" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_50MHz.clk_in" type="clock" dir="end" />
@@ -172,7 +172,7 @@
   <parameter name="muldiv_divider" value="false" />
   <parameter name="mpu_useLimit" value="false" />
   <parameter name="mpu_enabled" value="false" />
-  <parameter name="mmu_enabled" value="true" />
+  <parameter name="mmu_enabled" value="false" />
   <parameter name="mmu_autoAssignTlbPtrSz" value="true" />
   <parameter name="manuallyAssignCpuID" value="true" />
   <parameter name="debug_triggerArming" value="true" />
@@ -193,9 +193,9 @@
   <parameter name="cpuID_stored" value="0" />
   <parameter name="breakOffset" value="32" />
   <parameter name="userDefinedSettings" value="" />
-  <parameter name="resetSlave" value="Absolute" />
-  <parameter name="mmu_TLBMissExcSlave" value="Absolute" />
-  <parameter name="exceptionSlave" value="Absolute" />
+  <parameter name="resetSlave" value="on_Chip_ROM.s1" />
+  <parameter name="mmu_TLBMissExcSlave" value="on_Chip_ROM.s1" />
+  <parameter name="exceptionSlave" value="on_Chip_ROM.s1" />
   <parameter name="breakSlave">nios2_processor.jtag_debug_module</parameter>
   <parameter name="setting_perfCounterWidth" value="32" />
   <parameter name="setting_interruptControllerType" value="Internal" />
@@ -221,8 +221,8 @@
   <parameter name="dcache_ramBlockType" value="Automatic" />
   <parameter name="dcache_numTCDM" value="0" />
   <parameter name="dcache_lineSize" value="32" />
-  <parameter name="instAddrWidth" value="14" />
-  <parameter name="dataAddrWidth" value="14" />
+  <parameter name="instAddrWidth" value="15" />
+  <parameter name="dataAddrWidth" value="15" />
   <parameter name="tightlyCoupledDataMaster0AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledDataMaster2AddrWidth" value="1" />
@@ -231,8 +231,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='nios2_processor.jtag_debug_module' start='0x800' end='0x1000' /><slave name='on_Chip_ROM.s1' start='0x1000' end='0x2000' /><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='RS232_UART.avalon_rs232_slave' start='0x3000' end='0x3008' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x3400' end='0x3800' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='nios2_processor.jtag_debug_module' start='0x800' end='0x1000' /><slave name='on_Chip_ROM.s1' start='0x1000' end='0x2000' /><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='RS232_UART.avalon_rs232_slave' start='0x3000' end='0x3008' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x3400' end='0x3800' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="8" />
@@ -325,7 +325,7 @@
    start="nios2_processor.data_master"
    end="nios2_processor.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0800" />
+  <parameter name="baseAddress" value="0x4800" />
  </connection>
  <connection
    kind="reset"
@@ -348,7 +348,7 @@
    start="nios2_processor.instruction_master"
    end="on_Chip_ROM.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1000" />
+  <parameter name="baseAddress" value="0x3000" />
  </connection>
  <connection
    kind="avalon"
@@ -356,7 +356,7 @@
    start="nios2_processor.data_master"
    end="on_Chip_ROM.s1">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x1000" />
+  <parameter name="baseAddress" value="0x3000" />
  </connection>
  <connection
    kind="avalon"
@@ -364,7 +364,7 @@
    start="nios2_processor.instruction_master"
    end="nios2_processor.jtag_debug_module">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x0800" />
+  <parameter name="baseAddress" value="0x4800" />
  </connection>
  <connection
    kind="avalon"
@@ -393,7 +393,7 @@
    start="nios2_processor.data_master"
    end="RS232_UART.avalon_rs232_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x3000" />
+  <parameter name="baseAddress" value="0x5808" />
  </connection>
  <connection
    kind="avalon"
@@ -401,7 +401,7 @@
    start="nios2_processor.instruction_master"
    end="RS232_UART.avalon_rs232_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x3000" />
+  <parameter name="baseAddress" value="0x5808" />
  </connection>
  <connection
    kind="reset"
@@ -421,7 +421,7 @@
    start="nios2_processor.data_master"
    end="SD_Card_Interface.avalon_sdcard_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x3400" />
+  <parameter name="baseAddress" value="0x5400" />
  </connection>
  <connection
    kind="avalon"
@@ -429,7 +429,7 @@
    start="nios2_processor.instruction_master"
    end="SD_Card_Interface.avalon_sdcard_slave">
   <parameter name="arbitrationPriority" value="1" />
-  <parameter name="baseAddress" value="0x3400" />
+  <parameter name="baseAddress" value="0x5400" />
  </connection>
  <connection
    kind="reset"
