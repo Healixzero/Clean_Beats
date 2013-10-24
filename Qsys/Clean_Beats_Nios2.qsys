@@ -12,6 +12,22 @@
    element $${FILENAME}
    {
    }
+   element Button_Port
+   {
+      datum _sortIndex
+      {
+         value = "7";
+         type = "int";
+      }
+   }
+   element LED_Port
+   {
+      datum _sortIndex
+      {
+         value = "6";
+         type = "int";
+      }
+   }
    element RS232_UART
    {
       datum _sortIndex
@@ -26,6 +42,46 @@
       {
          value = "5";
          type = "int";
+      }
+   }
+   element Seven_Seg_Display_Port
+   {
+      datum _sortIndex
+      {
+         value = "9";
+         type = "int";
+      }
+   }
+   element Switch_Port
+   {
+      datum _sortIndex
+      {
+         value = "8";
+         type = "int";
+      }
+   }
+   element Button_Port.avalon_parallel_port_slave
+   {
+      datum baseAddress
+      {
+         value = "32";
+         type = "String";
+      }
+   }
+   element Seven_Seg_Display_Port.avalon_parallel_port_slave
+   {
+      datum baseAddress
+      {
+         value = "16";
+         type = "String";
+      }
+   }
+   element Switch_Port.avalon_parallel_port_slave
+   {
+      datum baseAddress
+      {
+         value = "48";
+         type = "String";
       }
    }
    element RS232_UART.avalon_rs232_slave
@@ -115,7 +171,7 @@
  <parameter name="projectName" value="" />
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1382503166202" />
+ <parameter name="timeStamp" value="1382584691853" />
  <parameter name="useTestBenchNamingPattern" value="false" />
  <instanceScript></instanceScript>
  <interface name="clk" internal="clk_50MHz.clk_in" type="clock" dir="end" />
@@ -127,6 +183,26 @@
  <interface
    name="sd_card_external_interface"
    internal="SD_Card_Interface.conduit_end"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="led_port_external_interface"
+   internal="LED_Port.external_interface"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="button_port_external_interface"
+   internal="Button_Port.external_interface"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="switch_port_external_interface"
+   internal="Switch_Port.external_interface"
+   type="conduit"
+   dir="end" />
+ <interface
+   name="seven_seg_display_port_external_interface"
+   internal="Seven_Seg_Display_Port.external_interface"
    type="conduit"
    dir="end" />
  <module kind="clock_source" version="12.1" enabled="1" name="clk_50MHz">
@@ -231,8 +307,8 @@
   <parameter name="tightlyCoupledInstructionMaster1AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster2AddrWidth" value="1" />
   <parameter name="tightlyCoupledInstructionMaster3AddrWidth" value="1" />
-  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
+  <parameter name="instSlaveMapParam"><![CDATA[<address-map><slave name='LED_Port.avalon_parallel_port_slave' start='0x0' end='0x10' /><slave name='Seven_Seg_Display_Port.avalon_parallel_port_slave' start='0x10' end='0x20' /><slave name='Button_Port.avalon_parallel_port_slave' start='0x20' end='0x30' /><slave name='Switch_Port.avalon_parallel_port_slave' start='0x30' end='0x40' /><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='LED_Port.avalon_parallel_port_slave' start='0x0' end='0x10' /><slave name='Seven_Seg_Display_Port.avalon_parallel_port_slave' start='0x10' end='0x20' /><slave name='Button_Port.avalon_parallel_port_slave' start='0x20' end='0x30' /><slave name='Switch_Port.avalon_parallel_port_slave' start='0x30' end='0x40' /><slave name='on_Chip_RAM.s1' start='0x2000' end='0x3000' /><slave name='on_Chip_ROM.s1' start='0x3000' end='0x4000' /><slave name='nios2_processor.jtag_debug_module' start='0x4800' end='0x5000' /><slave name='SD_Card_Interface.avalon_sdcard_slave' start='0x5400' end='0x5800' /><slave name='RS232_UART.avalon_rs232_slave' start='0x5808' end='0x5810' /></address-map>]]></parameter>
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="deviceFamilyName" value="Cyclone III" />
   <parameter name="internalIrqMaskSystemInfo" value="8" />
@@ -317,6 +393,86 @@
    enabled="1"
    name="SD_Card_Interface">
   <parameter name="AUTO_CLOCK_SINK_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
+ </module>
+ <module
+   kind="altera_up_avalon_parallel_port"
+   version="12.0"
+   enabled="1"
+   name="LED_Port">
+  <parameter name="board" value="DE0" />
+  <parameter name="custom_port" value="false" />
+  <parameter name="preset" value="LEDs" />
+  <parameter name="leds" value="Green" />
+  <parameter name="sevensegs" value="3 to 0" />
+  <parameter name="gpio" value="GPIO 0 (JP1)" />
+  <parameter name="custom_DW" value="32" />
+  <parameter name="custom_direction" value="Input only" />
+  <parameter name="capture" value="false" />
+  <parameter name="edge" value="Rising" />
+  <parameter name="irq" value="false" />
+  <parameter name="irq_type" value="Edge" />
+  <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
+ </module>
+ <module
+   kind="altera_up_avalon_parallel_port"
+   version="12.0"
+   enabled="1"
+   name="Button_Port">
+  <parameter name="board" value="DE0" />
+  <parameter name="custom_port" value="false" />
+  <parameter name="preset" value="Pushbuttons" />
+  <parameter name="leds" value="Green" />
+  <parameter name="sevensegs" value="3 to 0" />
+  <parameter name="gpio" value="GPIO 0 (JP1)" />
+  <parameter name="custom_DW" value="32" />
+  <parameter name="custom_direction" value="Input only" />
+  <parameter name="capture" value="false" />
+  <parameter name="edge" value="Rising" />
+  <parameter name="irq" value="false" />
+  <parameter name="irq_type" value="Edge" />
+  <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
+ </module>
+ <module
+   kind="altera_up_avalon_parallel_port"
+   version="12.0"
+   enabled="1"
+   name="Switch_Port">
+  <parameter name="board" value="DE0" />
+  <parameter name="custom_port" value="false" />
+  <parameter name="preset" value="Slider Switches" />
+  <parameter name="leds" value="Green" />
+  <parameter name="sevensegs" value="3 to 0" />
+  <parameter name="gpio" value="GPIO 0 (JP1)" />
+  <parameter name="custom_DW" value="32" />
+  <parameter name="custom_direction" value="Input only" />
+  <parameter name="capture" value="false" />
+  <parameter name="edge" value="Rising" />
+  <parameter name="irq" value="false" />
+  <parameter name="irq_type" value="Edge" />
+  <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
+ </module>
+ <module
+   kind="altera_up_avalon_parallel_port"
+   version="12.0"
+   enabled="1"
+   name="Seven_Seg_Display_Port">
+  <parameter name="board" value="DE0" />
+  <parameter name="custom_port" value="false" />
+  <parameter name="preset">Seven Segment Displays</parameter>
+  <parameter name="leds" value="Green" />
+  <parameter name="sevensegs" value="3 to 0" />
+  <parameter name="gpio" value="GPIO 0 (JP1)" />
+  <parameter name="custom_DW" value="32" />
+  <parameter name="custom_direction" value="Input only" />
+  <parameter name="capture" value="false" />
+  <parameter name="edge" value="Rising" />
+  <parameter name="irq" value="false" />
+  <parameter name="irq_type" value="Edge" />
+  <parameter name="AUTO_CLOCK_RESET_CLOCK_RATE" value="50000000" />
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone III" />
  </module>
  <connection
@@ -461,4 +617,108 @@
    version="12.1"
    start="clk_50MHz.clk"
    end="SD_Card_Interface.clock_sink" />
+ <connection
+   kind="clock"
+   version="12.1"
+   start="clk_50MHz.clk"
+   end="LED_Port.clock_reset" />
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.data_master"
+   end="LED_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.instruction_master"
+   end="LED_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+ </connection>
+ <connection
+   kind="reset"
+   version="12.1"
+   start="nios2_processor.jtag_debug_module_reset"
+   end="LED_Port.clock_reset_reset" />
+ <connection
+   kind="clock"
+   version="12.1"
+   start="clk_50MHz.clk"
+   end="Button_Port.clock_reset" />
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.data_master"
+   end="Button_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0020" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.instruction_master"
+   end="Button_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0020" />
+ </connection>
+ <connection
+   kind="reset"
+   version="12.1"
+   start="nios2_processor.jtag_debug_module_reset"
+   end="Button_Port.clock_reset_reset" />
+ <connection
+   kind="clock"
+   version="12.1"
+   start="clk_50MHz.clk"
+   end="Switch_Port.clock_reset" />
+ <connection
+   kind="clock"
+   version="12.1"
+   start="clk_50MHz.clk"
+   end="Seven_Seg_Display_Port.clock_reset" />
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.data_master"
+   end="Seven_Seg_Display_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0010" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.instruction_master"
+   end="Seven_Seg_Display_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0010" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.instruction_master"
+   end="Switch_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0030" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="12.1"
+   start="nios2_processor.data_master"
+   end="Switch_Port.avalon_parallel_port_slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0030" />
+ </connection>
+ <connection
+   kind="reset"
+   version="12.1"
+   start="nios2_processor.jtag_debug_module_reset"
+   end="Seven_Seg_Display_Port.clock_reset_reset" />
+ <connection
+   kind="reset"
+   version="12.1"
+   start="nios2_processor.jtag_debug_module_reset"
+   end="Switch_Port.clock_reset_reset" />
 </system>

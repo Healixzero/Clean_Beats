@@ -1,0 +1,782 @@
+Archive member included because of file (symbol)
+
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+                              obj/default/Blinking_Lights.o (__divsi3)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o (alt_load)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o (alt_main)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_up_rs232_read_fd)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (close)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o) (alt_errno)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o) (alt_find_dev)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_qsys_irq_init)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o) (errno)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+_atexit0            0x190             c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+on_Chip_RAM      0x00002000         0x00001000
+reset            0x00003000         0x00000020
+on_Chip_ROM      0x00003020         0x00000fe0
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/Blinking_Lights.o
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libstdc++.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libm.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a
+START GROUP
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a
+LOAD Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a
+END GROUP
+LOAD c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a
+                0x00002000                __alt_mem_on_Chip_RAM = 0x2000
+                0x00003000                __alt_mem_on_Chip_ROM = 0x3000
+
+.entry          0x00003000       0x20
+ *(.entry)
+ .entry         0x00003000       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+                0x00003000                __reset
+
+.exceptions     0x00003020        0x0
+                0x00003020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x00003020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x00003020                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x00003020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x00002000     0x1200
+                0x00002000                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00002000       0x4c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+                0x00002000                _start
+ .text          0x0000204c       0xc0 obj/default/Blinking_Lights.o
+                0x0000204c                main
+ .text          0x0000210c      0x14c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+                0x00002188                __divsi3
+                0x000021e8                __modsi3
+                0x00002248                __udivsi3
+                0x00002250                __umodsi3
+ .text          0x00002258       0xec Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+                0x00002258                alt_load
+ .text          0x00002344       0x50 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+                0x00002344                alt_main
+ .text          0x00002394       0xd8 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00002394                alt_irq_init
+                0x000023c8                alt_sys_init
+ .text          0x0000246c      0x398 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+                0x0000246c                alt_up_rs232_enable_read_interrupt
+                0x000024c0                alt_up_rs232_disable_read_interrupt
+                0x00002518                alt_up_rs232_get_used_space_in_read_FIFO
+                0x00002554                alt_up_rs232_get_available_space_in_write_FIFO
+                0x00002594                alt_up_rs232_check_parity
+                0x000025e4                alt_up_rs232_write_data
+                0x0000262c                alt_up_rs232_read_data
+                0x000026a0                alt_up_rs232_read_fd
+                0x00002730                alt_up_rs232_write_fd
+                0x000027c4                alt_up_rs232_open_dev
+ .text          0x00002804      0x15c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+                0x00002804                close
+ .text          0x00002960       0x44 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00002960                alt_dcache_flush_all
+ .text          0x000029a4       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x000029d0      0x114 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x000029d0                alt_dev_llist_insert
+ .text          0x00002ae4       0x64 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00002ae4                _do_ctors
+ .text          0x00002b48       0x64 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x00002b48                _do_dtors
+ .text          0x00002bac        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00002bac       0x94 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x00002bac                alt_find_dev
+ .text          0x00002c40       0x30 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00002c40                alt_icache_flush_all
+ .text          0x00002c70       0x60 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x00002c70                alt_release_fd
+ .text          0x00002cd0       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+                0x00002cd0                altera_nios2_qsys_irq_init
+ .text          0x00002cf0       0x90 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00002cf0                alt_icache_flush
+ .text          0x00002d80       0x14 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x00002d80                atexit
+ .text          0x00002d94       0x38 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x00002d94                exit
+ .text          0x00002dcc        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x00002dcc        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x00002dcc       0x74 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x00002dcc                memcmp
+ .text          0x00002e40       0x74 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x00002e40                strlen
+ .text          0x00002eb4      0x134 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x00002eb4                __register_exitproc
+ .text          0x00002fe8      0x1b4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x00002fec                __call_exitprocs
+ .text          0x0000319c       0x60 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000031dc                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x000031fc                PROVIDE (__etext, ABSOLUTE (.))
+                0x000031fc                PROVIDE (_etext, ABSOLUTE (.))
+                0x000031fc                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000031fc                . = ALIGN (0x4)
+                0x000031fc                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x000031fc                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x000031fc                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x000031fc                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x000031fc                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x000031fc                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table)
+ *(.dynamic)
+                0x000031fc                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+ .ctors.65535   0x000031fc        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x00003200                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x00003200                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x00003200                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x00003200                . = ALIGN (0x4)
+
+.rodata         0x00003200       0x8c
+                0x00003200                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x00003200                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x00003200       0x7c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x0000327c        0xc Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata.str1.4
+                0x00003288        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ *(.rodata1)
+                0x0000328c                . = ALIGN (0x4)
+                0x0000328c                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x00003200                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000328c      0x6d0 load address 0x0000395c
+                0x0000328c                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000328c                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000328c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .data          0x0000328c        0x0 obj/default/Blinking_Lights.o
+ .data          0x0000328c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .data          0x0000328c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000328c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000328c      0x108 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x00003394        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .data          0x00003394        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x00003394        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x00003394      0x1a8 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00003394                alt_dev_null
+                0x000033bc                alt_fd_list
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .data          0x0000353c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000353c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x0000353c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x0000353c      0x400 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0000393c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0000393c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0000393c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x0000393c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x0000393c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000393c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000b93c                _gp = ABSOLUTE ((. + 0x8000))
+                0x0000b93c                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000393c       0x14 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000393c                alt_fs_list
+                0x00003944                alt_dev_list
+                0x0000394c                alt_max_fd
+ .sdata         0x00003950        0x4 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00003950                alt_errno
+ .sdata         0x00003954        0x8 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x00003954                _impure_ptr
+                0x00003958                _global_impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000395c                . = ALIGN (0x4)
+                0x0000395c                _edata = ABSOLUTE (.)
+                0x0000395c                PROVIDE (edata, ABSOLUTE (.))
+                0x0000395c                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000395c                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000402c      0x1a0
+                0x0000402c                __bss_start = ABSOLUTE (.)
+                0x0000402c                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x0000402c                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000402c        0xc Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000402c                alt_argc
+                0x00004030                alt_argv
+                0x00004034                alt_envp
+ .sbss          0x00004038        0x4 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x00004038                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x0000403c                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x0000403c                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000403c        0x0 obj/default/Blinking_Lights.o
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x0000403c        0x0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000403c        0x0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000403c      0x190 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x0000403c                _atexit0
+                0x000041cc                . = ALIGN (0x4)
+                0x000041cc                __bss_end = ABSOLUTE (.)
+
+.on_Chip_RAM    0x000041cc        0x0
+                0x000041cc                PROVIDE (_alt_partition_on_Chip_RAM_start, ABSOLUTE (.))
+ *(.on_Chip_RAM. on_Chip_RAM.*)
+                0x000041cc                . = ALIGN (0x4)
+                0x000041cc                PROVIDE (_alt_partition_on_Chip_RAM_end, ABSOLUTE (.))
+                0x000041cc                _end = ABSOLUTE (.)
+                0x000041cc                end = ABSOLUTE (.)
+                0x000041cc                __alt_stack_base = ABSOLUTE (.)
+                0x000041cc                PROVIDE (_alt_partition_on_Chip_RAM_load_addr, LOADADDR (.on_Chip_RAM))
+
+.on_Chip_ROM    0x00003020        0x0 load address 0x000041cc
+                0x00003020                PROVIDE (_alt_partition_on_Chip_ROM_start, ABSOLUTE (.))
+ *(.on_Chip_ROM. on_Chip_ROM.*)
+                0x00003020                . = ALIGN (0x4)
+                0x00003020                PROVIDE (_alt_partition_on_Chip_ROM_end, ABSOLUTE (.))
+                0x000041cc                PROVIDE (_alt_partition_on_Chip_ROM_load_addr, LOADADDR (.on_Chip_ROM))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 obj/default/Blinking_Lights.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x00000000       0x24 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x00000000       0x24 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x328
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x00000028       0x20 obj/default/Blinking_Lights.o
+ .debug_aranges
+                0x00000048       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000068       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000088       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x000000a8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x000000c8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_aranges
+                0x000000e8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000108       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000128       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000148       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x00000168       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x00000188       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x000001a8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x000001c8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x000001e8       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x00000208       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_aranges
+                0x00000228       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000248       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000268       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x00000288       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x000002a8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x000002c8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x000002e8       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000308       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+                0x00000000      0x5a0
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b obj/default/Blinking_Lights.o
+ .debug_pubnames
+                0x0000001b       0x48 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_pubnames
+                0x00000063       0x1f Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_pubnames
+                0x00000082       0x46 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_pubnames
+                0x000000c8       0x34 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_pubnames
+                0x000000fc      0x163 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_pubnames
+                0x0000025f       0x1c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_pubnames
+                0x0000027b       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_pubnames
+                0x000002a6       0x63 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_pubnames
+                0x00000309       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_pubnames
+                0x00000334       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_pubnames
+                0x00000354       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_pubnames
+                0x00000374       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_pubnames
+                0x00000394       0x23 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_pubnames
+                0x000003b7       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_pubnames
+                0x000003e2       0x25 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_pubnames
+                0x00000407       0x31 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_pubnames
+                0x00000438       0x27 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_pubnames
+                0x0000045f       0x2a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_pubnames
+                0x00000489       0x1b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_pubnames
+                0x000004a4       0x39 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_pubnames
+                0x000004dd       0x1c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_pubnames
+                0x000004f9       0x1d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_pubnames
+                0x00000516       0x1d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_pubnames
+                0x00000533       0x2a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_pubnames
+                0x0000055d       0x27 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_pubnames
+                0x00000584       0x1c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_info     0x00000000     0x60da
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000       0x64 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x00000064      0x1e9 obj/default/Blinking_Lights.o
+ .debug_info    0x0000024d      0x21c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_info    0x00000469      0x276 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x000006df      0x255 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x00000934      0x5f9 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000f2d      0x7c8 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_info    0x000016f5      0x450 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00001b45      0x158 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00001c9d      0x668 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00002305      0x2a0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x000025a5       0xf8 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000269d       0xf7 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00002794      0x14d Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x000028e1      0x401 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00002ce2      0x145 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x00002e27      0x3db Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x00003202      0x193 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_info    0x00003395      0x18d Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00003522      0x181 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x000036a3      0x93f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x00003fe2      0x93d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x0000491f       0x8c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x000049ab      0x115 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x00004ac0       0xdb c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x00004b9b      0x99c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x00005537      0x9e2 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x00005f19      0x1c1 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x00000000     0x1520
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x00000012       0xa2 obj/default/Blinking_Lights.o
+ .debug_abbrev  0x000000b4       0xe0 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000194       0x88 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000021c       0xbe Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x000002da      0x13d Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x00000417      0x120 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_abbrev  0x00000537       0xfb Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x00000632       0x57 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000689       0xc7 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x00000750       0xf6 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x00000846       0x76 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x000008bc       0x76 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x00000932       0x5e Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x00000990       0xcf Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000a5f       0x3f Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x00000a9e       0xc1 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000b5f       0x64 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_abbrev  0x00000bc3       0x7a Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x00000c3d       0xb7 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x00000cf4      0x16e c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x00000e62      0x157 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x00000fb9       0x3b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x00000ff4       0x7c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x00001070       0x8b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x000010fb      0x1ae c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000012a9      0x1de c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00001487       0x99 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x00000000     0x3b64
+ *(.debug_line)
+ .debug_line    0x00000000       0x72 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x00000072      0x2a8 obj/default/Blinking_Lights.o
+ .debug_line    0x0000031a      0x24f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000569      0x211 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000077a      0x2d0 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x00000a4a      0x30a Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000d54      0x3e3 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_line    0x00001137      0x293 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000013ca      0x1c7 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00001591      0x24e Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x000017df      0x254 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x00001a33       0x83 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00001ab6       0x83 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x00001b39      0x1a4 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00001cdd      0x265 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x00001f42      0x1b7 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000020f9       0xed Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x000021e6      0x1e1 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_line    0x000023c7      0x1f3 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x000025ba      0x1fa c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x000027b4      0x232 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x000029e6      0x224 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x00002c0a      0x1d9 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x00002de3      0x296 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x00003079      0x264 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x000032dd      0x30d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x000035ea      0x361 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000394b      0x219 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x00000000      0x624
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x48 obj/default/Blinking_Lights.o
+ .debug_frame   0x00000048       0x70 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x000000b8       0x48 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000100       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000012c       0x64 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000190      0x128 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_frame   0x000002b8       0x48 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000300       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000032c       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x00000358       0x48 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x000003a0       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x000003cc       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x000003f8       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x00000424       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x00000450       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000047c       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_frame   0x000004a8       0x2c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x000004d4       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x000004f4       0x28 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000051c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000053c       0x20 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000055c       0x34 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x00000590       0x4c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x000005dc       0x48 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x00000000      0xa85
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 obj/default/Blinking_Lights.o
+ .debug_str     0x00000012      0x164 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+                                0x1b1 (size before relaxing)
+ .debug_str     0x00000176       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_str     0x00000188       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_str     0x0000019a       0x4f Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_str     0x000001e9       0x48 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_str     0x00000231       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_str     0x00000243       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_str     0x00000255       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_str     0x00000267       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_str     0x00000279       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_str     0x0000028b       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_str     0x0000029d       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_str     0x000002af       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_str     0x000002c1       0x12 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_str     0x000002d3      0x11a c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                0x1bc (size before relaxing)
+ .debug_str     0x000003ed      0x384 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+                                0x509 (size before relaxing)
+ .debug_str     0x00000771       0xce c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-impure.o)
+                                0x517 (size before relaxing)
+ .debug_str     0x0000083f       0x3d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                0x160 (size before relaxing)
+ .debug_str     0x0000087c       0xd2 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                0x167 (size before relaxing)
+ .debug_str     0x0000094e       0x4f c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                0x17a (size before relaxing)
+ .debug_str     0x0000099d       0x51 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                0x521 (size before relaxing)
+ .debug_str     0x000009ee       0x7b c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                0x54b (size before relaxing)
+ .debug_str     0x00000a69       0x1c Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_loc      0x00000000      0xbf3
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x56 obj/default/Blinking_Lights.o
+ .debug_loc     0x00000056      0x1d2 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x00000228       0x56 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_loc     0x0000027e       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_loc     0x000002a9       0x81 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x0000032a      0x1ae Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_up_avalon_rs232.o)
+ .debug_loc     0x000004d8       0x56 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_loc     0x0000052e       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x00000559       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_loc     0x00000584       0x56 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_loc     0x000005da       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_loc     0x00000605       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_loc     0x00000630       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_loc     0x0000065b       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_loc     0x00000686       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_loc     0x000006b1       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(altera_nios2_qsys_irq.o)
+ .debug_loc     0x000006dc       0x2b Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x00000707       0x1e c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x00000725       0x3d c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x00000762      0x114 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x00000876       0x3c c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x000008b2      0x120 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x000009d2      0x1cb c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x00000b9d       0x56 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x00000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x00000000       0x30 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+                0x00003000                __alt_data_end = 0x3000
+                0x00003000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x000041cc                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x000041cc                PROVIDE (__alt_heap_start, end)
+                0x00003000                PROVIDE (__alt_heap_limit, 0x3000)
+OUTPUT(Blinking_Lights.elf elf32-littlenios2)
+
+.debug_ranges   0x00000000       0x38
+ .debug_ranges  0x00000000       0x20 Z:/GitHub/Clean_Beats/software/Blinking_Lights_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x00000020       0x18 c:/altera/12.1/nios2eds/bin/gnu/h-i686-mingw32/bin/../lib/gcc/nios2-elf/4.1.2/../../../../nios2-elf/lib\libc.a(lib_a-__call_atexit.o)

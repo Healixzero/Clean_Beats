@@ -250,6 +250,13 @@ altera_nios2_qsys_hal_driver_ASM_LIB_SRCS := \
 	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/alt_log_macro.S \
 	$(altera_nios2_qsys_hal_driver_SRCS_ROOT)/src/crt0.S
 
+# avalon_parallel_port_driver sources root 
+avalon_parallel_port_driver_SRCS_ROOT := drivers
+
+# avalon_parallel_port_driver sources 
+avalon_parallel_port_driver_C_LIB_SRCS := \
+	$(avalon_parallel_port_driver_SRCS_ROOT)/src/altera_up_avalon_parallel_port.c
+
 # hal sources root 
 hal_SRCS_ROOT := HAL
 
@@ -320,6 +327,7 @@ up_avalon_rs232_driver_C_LIB_SRCS := \
 COMPONENT_C_LIB_SRCS += \
 	$(Altera_UP_SD_Card_Avalon_Interface_driver_C_LIB_SRCS) \
 	$(altera_nios2_qsys_hal_driver_C_LIB_SRCS) \
+	$(avalon_parallel_port_driver_C_LIB_SRCS) \
 	$(hal_C_LIB_SRCS) \
 	$(up_avalon_rs232_driver_C_LIB_SRCS)
 

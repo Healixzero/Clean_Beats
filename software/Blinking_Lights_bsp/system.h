@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_processor' in SOPC Builder design 'Clean_Beats_Nios2'
  * SOPC Builder design path: Z:/GitHub/Clean_Beats/Qsys/Clean_Beats_Nios2.sopcinfo
  *
- * Generated: Wed Oct 23 16:30:22 PDT 2013
+ * Generated: Wed Oct 23 21:04:29 PDT 2013
  */
 
 /*
@@ -53,6 +53,20 @@
 
 /* Include definitions from linker script generator */
 #include "linker.h"
+
+
+/*
+ * Button_Port configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Button_Port altera_up_avalon_parallel_port
+#define BUTTON_PORT_BASE 0x20
+#define BUTTON_PORT_IRQ -1
+#define BUTTON_PORT_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define BUTTON_PORT_NAME "/dev/Button_Port"
+#define BUTTON_PORT_SPAN 16
+#define BUTTON_PORT_TYPE "altera_up_avalon_parallel_port"
 
 
 /*
@@ -133,8 +147,23 @@
 
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
 #define __ALTERA_NIOS2_QSYS
+#define __ALTERA_UP_AVALON_PARALLEL_PORT
 #define __ALTERA_UP_AVALON_RS232
 #define __ALTERA_UP_SD_CARD_AVALON_INTERFACE
+
+
+/*
+ * LED_Port configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_LED_Port altera_up_avalon_parallel_port
+#define LED_PORT_BASE 0x0
+#define LED_PORT_IRQ -1
+#define LED_PORT_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define LED_PORT_NAME "/dev/LED_Port"
+#define LED_PORT_SPAN 16
+#define LED_PORT_TYPE "altera_up_avalon_parallel_port"
 
 
 /*
@@ -163,6 +192,34 @@
 #define SD_CARD_INTERFACE_NAME "/dev/SD_Card_Interface"
 #define SD_CARD_INTERFACE_SPAN 1024
 #define SD_CARD_INTERFACE_TYPE "Altera_UP_SD_Card_Avalon_Interface"
+
+
+/*
+ * Seven_Seg_Display_Port configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Seven_Seg_Display_Port altera_up_avalon_parallel_port
+#define SEVEN_SEG_DISPLAY_PORT_BASE 0x10
+#define SEVEN_SEG_DISPLAY_PORT_IRQ -1
+#define SEVEN_SEG_DISPLAY_PORT_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define SEVEN_SEG_DISPLAY_PORT_NAME "/dev/Seven_Seg_Display_Port"
+#define SEVEN_SEG_DISPLAY_PORT_SPAN 16
+#define SEVEN_SEG_DISPLAY_PORT_TYPE "altera_up_avalon_parallel_port"
+
+
+/*
+ * Switch_Port configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Switch_Port altera_up_avalon_parallel_port
+#define SWITCH_PORT_BASE 0x30
+#define SWITCH_PORT_IRQ -1
+#define SWITCH_PORT_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define SWITCH_PORT_NAME "/dev/Switch_Port"
+#define SWITCH_PORT_SPAN 16
+#define SWITCH_PORT_TYPE "altera_up_avalon_parallel_port"
 
 
 /*

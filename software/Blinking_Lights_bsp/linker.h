@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_processor' in SOPC Builder design 'Clean_Beats_Nios2'
  * SOPC Builder design path: Z:/GitHub/Clean_Beats/Qsys/Clean_Beats_Nios2.sopcinfo
  *
- * Generated: Wed Oct 23 16:30:22 PDT 2013
+ * Generated: Wed Oct 23 21:04:29 PDT 2013
  */
 
 /*

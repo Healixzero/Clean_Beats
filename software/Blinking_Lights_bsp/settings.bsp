@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Oct 23, 2013 4:30:12 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1382571012459</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Oct 23, 2013 9:04:18 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1382587458935</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>Z:\GitHub\Clean_Beats\software\Blinking_Lights_bsp</BspGeneratedLocation>
         <BspSettingsFile>.\settings.bsp</BspSettingsFile>
         <SopcDesignFile>Z:\GitHub\Clean_Beats\Qsys\Clean_Beats_Nios2.sopcinfo</SopcDesignFile>
@@ -838,6 +838,30 @@
                 <Enabled>false</Enabled>
                 <Group>none</Group>
         </Setting>
+        <MemoryMap>
+                <slaveDescriptor>LED_Port</slaveDescriptor>
+                <addressRange>0x00000000 - 0x0000000F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Seven_Seg_Display_Port</slaveDescriptor>
+                <addressRange>0x00000010 - 0x0000001F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Button_Port</slaveDescriptor>
+                <addressRange>0x00000020 - 0x0000002F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>Switch_Port</slaveDescriptor>
+                <addressRange>0x00000030 - 0x0000003F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes/>
+        </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>on_Chip_RAM</slaveDescriptor>
                 <addressRange>0x00002000 - 0x00002FFF</addressRange>

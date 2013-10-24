@@ -12,6 +12,9 @@
 
 #include "Blinking_Lights.h"
 
+static void Blink ( long int blink_freq );
+static void Switch ( )
+
 
 int main ( void )
 {
@@ -24,7 +27,7 @@ int main ( void )
 /* Blink at a specific rate. the passed-in blink_freq is the desired
    frequency the LED should toggle at in Hz */
 static void Blink ( long int blink_freq )
-{  volatile int * green_led = (int*) ox10000010;
+{  volatile int * green_led = (int*) 0x00000000;
    volatile long int counter = 0;
    volatile long int max_count = 0;
 
@@ -32,11 +35,10 @@ static void Blink ( long int blink_freq )
 
    while ( counter < max_count)
    {  counter++;
-      if ( counter = max_count)
+      if ( counter = (max_count) )
       {  counter = 0;
          *(green_led) = !(*(green_led));  /* toggle LED */
       }
    }
-
 }
 

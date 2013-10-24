@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_processor' in SOPC Builder design 'Clean_Beats_Nios2'
  * SOPC Builder design path: Z:/GitHub/Clean_Beats/Qsys/Clean_Beats_Nios2.sopcinfo
  *
- * Generated: Wed Oct 23 16:30:16 PDT 2013
+ * Generated: Wed Oct 23 21:04:29 PDT 2013
  */
 
 /*
@@ -60,6 +60,7 @@
 
 #include "altera_nios2_qsys_irq.h"
 #include "Altera_UP_SD_Card_Avalon_Interface.h"
+#include "altera_up_avalon_parallel_port.h"
 #include "altera_up_avalon_rs232.h"
 
 /*
@@ -67,6 +68,10 @@
  */
 
 ALTERA_NIOS2_QSYS_IRQ_INSTANCE ( NIOS2_PROCESSOR, nios2_processor);
+ALTERA_UP_AVALON_PARALLEL_PORT_INSTANCE ( BUTTON_PORT, Button_Port);
+ALTERA_UP_AVALON_PARALLEL_PORT_INSTANCE ( LED_PORT, LED_Port);
+ALTERA_UP_AVALON_PARALLEL_PORT_INSTANCE ( SEVEN_SEG_DISPLAY_PORT, Seven_Seg_Display_Port);
+ALTERA_UP_AVALON_PARALLEL_PORT_INSTANCE ( SWITCH_PORT, Switch_Port);
 ALTERA_UP_AVALON_RS232_INSTANCE ( RS232_UART, RS232_UART);
 ALTERA_UP_SD_CARD_AVALON_INTERFACE_INSTANCE ( SD_CARD_INTERFACE, SD_Card_Interface);
 
@@ -91,6 +96,10 @@ void alt_irq_init ( const void* base )
 
 void alt_sys_init( void )
 {
+    ALTERA_UP_AVALON_PARALLEL_PORT_INIT ( BUTTON_PORT, Button_Port);
+    ALTERA_UP_AVALON_PARALLEL_PORT_INIT ( LED_PORT, LED_Port);
+    ALTERA_UP_AVALON_PARALLEL_PORT_INIT ( SEVEN_SEG_DISPLAY_PORT, Seven_Seg_Display_Port);
+    ALTERA_UP_AVALON_PARALLEL_PORT_INIT ( SWITCH_PORT, Switch_Port);
     ALTERA_UP_AVALON_RS232_INIT ( RS232_UART, RS232_UART);
     ALTERA_UP_SD_CARD_AVALON_INTERFACE_INIT ( SD_CARD_INTERFACE, SD_Card_Interface);
 }
