@@ -13,7 +13,6 @@
 #include "Blinking_Lights.h"
 
 static void Blink ( long int blink_freq );
-static void Switch ( )
 
 
 int main ( void )
@@ -40,5 +39,6 @@ static void Blink ( long int blink_freq )
          *(green_led) = !(*(green_led));  /* toggle LED */
       }
    }
+
 }
 

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/altera_up_rs232_counters.v"
+   type="VERILOG"
+   library="RS232_UART" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/altera_up_rs232_in_deserializer.v"
+   type="VERILOG"
+   library="RS232_UART" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/altera_up_rs232_out_serializer.v"
+   type="VERILOG"
+   library="RS232_UART" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/altera_up_sync_fifo.v"
+   type="VERILOG"
+   library="RS232_UART" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_RS232_UART.vhd"
+   type="VHDL"
+   library="RS232_UART" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_on_Chip_RAM.hex"
+   type="HEX"
+   library="on_Chip_RAM" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_on_Chip_RAM.vhd"
+   type="VHDL"
+   library="on_Chip_RAM" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_on_Chip_ROM.hex"
+   type="HEX"
+   library="on_Chip_ROM" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_on_Chip_ROM.vhd"
+   type="VHDL"
+   library="on_Chip_ROM" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor.do"
+   type="OTHER"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor.ocp"
+   type="OTHER"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor.sdc"
+   type="SDC"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor.vhd"
+   type="VHDL_ENCRYPT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor.vho"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_bht_ram.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_bht_ram.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_bht_ram.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_dc_tag_ram.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_dc_tag_ram.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_dc_tag_ram.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ic_tag_ram.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ic_tag_ram.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ic_tag_ram.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_jtag_debug_module_sysclk.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_jtag_debug_module_tck.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_jtag_debug_module_wrapper.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_mult_cell.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ociram_default_contents.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ociram_default_contents.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_ociram_default_contents.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_oci_test_bench.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_a.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_a.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_a.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_b.dat"
+   type="DAT"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_b.hex"
+   type="HEX"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_rf_ram_b.mif"
+   type="MIF"
+   library="nios2_processor" />
+ <file
+   path="Clean_Beats_Nios2/simulation/submodules/Clean_Beats_Nios2_nios2_processor_test_bench.vhd"
+   type="VHDL"
+   library="nios2_processor" />
+ <file path="Clean_Beats_Nios2/simulation/Clean_Beats_Nios2.vhd" type="VHDL" />
+ <file
+   path="Clean_Beats_Nios2/simulation/clean_beats_nios2_nios2_processor_jtag_debug_module_translator.vhd"
+   type="VHDL" />
+ <file
+   path="Clean_Beats_Nios2/simulation/clean_beats_nios2_on_chip_rom_s1_translator.vhd"
+   type="VHDL" />
+ <file
+   path="Clean_Beats_Nios2/simulation/clean_beats_nios2_rs232_uart_avalon_rs232_slave_translator.vhd"
+   type="VHDL" />
+ <file
+   path="Clean_Beats_Nios2/simulation/clean_beats_nios2_sd_card_interface_avalon_sdcard_slave_translator.vhd"
+   type="VHDL" />
+ <topLevel name="Clean_Beats_Nios2" />
+ <deviceFamily name="cycloneiii" />
+ <modelMap
+   controllerPath="Clean_Beats_Nios2.on_Chip_ROM"
+   modelPath="Clean_Beats_Nios2.on_Chip_ROM" />
+ <modelMap
+   controllerPath="Clean_Beats_Nios2.on_Chip_RAM"
+   modelPath="Clean_Beats_Nios2.on_Chip_RAM" />
+</simPackage>

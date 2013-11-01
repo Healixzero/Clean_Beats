@@ -67,18 +67,18 @@ entity CB_Top is
         --//////////////////    GPIO    ///////////////////////////
         GPIO0_CLKIN         : in    STD_logic_vector(1  downto 0);  -- GPIO Connection 0 Clock In Bus
         GPIO0_CLKOUT        : out   STD_logic_vector(1  downto 0);  -- GPIO Connection 0 Clock Out Bus
-        GPIO0_D             : inout STD_logic_vector(31 downto 0); -- GPIO Connection 0 Data Bus
+        GPIO0_D             : inout STD_logic_vector(31 downto 0);  -- GPIO Connection 0 Data Bus
         GPIO1_CLKIN         : in    STD_logic_vector(1  downto 0);  -- GPIO Connection 1 Clock In Bus
         GPIO1_CLKOUT        : out   STD_logic_vector(1  downto 0);  -- GPIO Connection 1 Clock Out Bus
         GPIO1_D             : inout STD_logic_vector(31 downto 0);  -- GPIO Connection 1 Data Bus
 
 
-    --  --//////////////////    LCD Module 16X2     ///////////////
-    --  LCD_BLON            : out   STD_logic;                     -- LCD Back Light ON/OFF
-    --  LCD_RW              : out   STD_logic;                     -- LCD Read/Write Select, 0 = Write, 1 = Read
-    --  LCD_EN              : out   STD_logic;                     -- LCD Enable
-    --  LCD_RS              : out   STD_logic;                     -- LCD Command/Data Select, 0 = Command, 1 = Data
-    --  LCD_DATA            : inout STD_logic_vector(7 downto 0);  -- LCD Data bus 8 bits
+        --//////////////////    LCD Module 16X2     ///////////////
+        LCD_BLON            : out   STD_logic;                     -- LCD Back Light ON/OFF
+        LCD_RW              : out   STD_logic;                     -- LCD Read/Write Select, 0 = Write, 1 = Read
+        LCD_EN              : out   STD_logic;                     -- LCD Enable
+        LCD_RS              : out   STD_logic;                     -- LCD Command/Data Select, 0 = Command, 1 = Data
+        LCD_DATA            : inout STD_logic_vector(7 downto 0);  -- LCD Data bus 8 bits
     
         --//////////////////////    UART    ///////////////////////
         UART_TXD            : inout STD_logic;                     -- UART Transmitter
@@ -102,31 +102,75 @@ entity CB_Top is
 
 end CB_Top;
 
+
 architecture a of CB_Top is
 
-   component Clean_Beats_Nios2 is
+	signal BA_Comb		: std_logic_vector (1 downto 0 );
+	signal DQ_Comb		: std_logic_vector (1 downto 0 );
+
+	
+	DRAM_BA_0 	<= BA_Comb(0);
+	DRAM_BA_1 	<= BA_Comb(1);
+	DRAM_UDQM	<= DQ_Comb(1);
+	DRAM_LDQM	<= DQ_Comb(0);
+
+    component Clean_Beats is
         port (
-            clk_clk                               : in    std_logic := 'X'; -- clk
-            rs232_external_interface_RXD          : in    std_logic := 'X'; -- RXD
-            rs232_external_interface_TXD          : out   std_logic;        -- TXD
-            sd_card_external_interface_b_SD_cmd   : inout std_logic := 'X'; -- b_SD_cmd
-            sd_card_external_interface_b_SD_dat   : inout std_logic := 'X'; -- b_SD_dat
-            sd_card_external_interface_b_SD_dat3  : inout std_logic := 'X'; -- b_SD_dat3
-            sd_card_external_interface_o_SD_clock : out   std_logic         -- o_SD_clock
+            clk_clk                     : in    std_logic                     := 'X';             -- clk
+            ram_controller_output_addr  : out   std_logic_vector(11 downto 0);                    -- addr
+            ram_controller_output_ba    : out   std_logic_vector(1 downto 0);                     -- ba
+            ram_controller_output_cas_n : out   std_logic;                                        -- cas_n
+            ram_controller_output_cke   : out   std_logic;                                        -- cke
+            ram_controller_output_cs_n  : out   std_logic;                                        -- cs_n
+            ram_controller_output_dq    : inout std_logic_vector(15 downto 0) := (others => 'X'); -- dq
+            ram_controller_output_dqm   : out   std_logic_vector(1 downto 0);                     -- dqm
+            ram_controller_output_ras_n : out   std_logic;                                        -- ras_n
+            ram_controller_output_we_n  : out   std_logic;                                        -- we_n
+            sd_card_output_b_SD_cmd     : inout std_logic                     := 'X';             -- b_SD_cmd
+            sd_card_output_b_SD_dat     : inout std_logic                     := 'X';             -- b_SD_dat
+            sd_card_output_b_SD_dat3    : inout std_logic                     := 'X';             -- b_SD_dat3
+            sd_card_output_o_SD_clock   : out   std_logic;                                        -- o_SD_clock
+            uart_controller_output_RXD  : in    std_logic                     := 'X';             -- RXD
+            uart_controller_output_TXD  : out   std_logic;                                        -- TXD
+            push_buttons_output_export  : in    std_logic_vector(2 downto 0)  := (others => 'X'); -- export
+            slider_switch_output_export : in    std_logic_vector(9 downto 0)  := (others => 'X'); -- export
+            leds_output_export          : out   std_logic_vector(9 downto 0);                     -- export
+            seven_seg_output_HEX0       : out   std_logic_vector(7 downto 0);                     -- HEX0
+            seven_seg_output_HEX1       : out   std_logic_vector(7 downto 0);                     -- HEX1
+            seven_seg_output_HEX2       : out   std_logic_vector(7 downto 0);                     -- HEX2
+            seven_seg_output_HEX3       : out   std_logic_vector(7 downto 0);                     -- HEX3
+            header_gpio1_output_export  : inout std_logic_vector(31 downto 0) := (others => 'X')  -- export
         );
-    end component Clean_Beats_Nios2;
+    end component Clean_Beats;
 	 
 	 begin
 
-    NIOS_Core : Clean_Beats_Nios2
+    NIOS_Core : component Clean_Beats
         port map (
-            clk_clk                               => CLOCK_50,          --                        clk.clk
-            rs232_external_interface_RXD          => UART_RXD,          --   rs232_external_interface.RXD
-            rs232_external_interface_TXD          => UART_TXD,          --                           .TXD
-            sd_card_external_interface_b_SD_cmd   => SD_CMD,            -- sd_card_external_interface.b_SD_cmd
-            sd_card_external_interface_b_SD_dat   => SD_DAT0,           --                           .b_SD_dat
-            sd_card_external_interface_b_SD_dat3  => SD_DAT3,           --                           .b_SD_dat3
-            sd_card_external_interface_o_SD_clock => SD_CLK             --                           .o_SD_clock
+            clk_clk                     => CLOCK_50,                     --                    clk.clk
+            ram_controller_output_addr  => DRAM_ADDR,  --  ram_controller_output.addr
+            ram_controller_output_ba    => BA_Comb,    --                       .ba
+            ram_controller_output_cas_n => DRAM_CAS_N, --                       .cas_n
+            ram_controller_output_cke   => DRAM_CKE,   --                       .cke
+            ram_controller_output_cs_n  => DRAM_CS_N,  --                       .cs_n
+            ram_controller_output_dq    => DRAM_DQ,    --                       .dq
+            ram_controller_output_dqm   => DQ_Comb,   --                       .dqm
+            ram_controller_output_ras_n => DRAM_RAS_N, --                       .ras_n
+            ram_controller_output_we_n  => FL_WE_N,  --                       .we_n
+            sd_card_output_b_SD_cmd     => SD_CMD,     --         sd_card_output.b_SD_cmd
+            sd_card_output_b_SD_dat     => SD_DAT0,     --                       .b_SD_dat
+            sd_card_output_b_SD_dat3    => SD_DAT3,    --                       .b_SD_dat3
+            sd_card_output_o_SD_clock   => SD_CLK,   --                       .o_SD_clock
+            uart_controller_output_RXD  => UART_RXD,  -- uart_controller_output.RXD
+            uart_controller_output_TXD  => UART_TXD,  --                       .TXD
+            push_buttons_output_export  => BUTTON,  --    push_buttons_output.export
+            slider_switch_output_export => SW, --   slider_switch_output.export
+            leds_output_export          => LEDG,          --            leds_output.export
+            seven_seg_output_HEX0       => HEX0_D,       --       seven_seg_output.HEX0
+            seven_seg_output_HEX1       => HEX1_D,       --                       .HEX1
+            seven_seg_output_HEX2       => HEX2_D,       --                       .HEX2
+            seven_seg_output_HEX3       => HEX3_D,       --                       .HEX3
+            header_gpio1_output_export  => GPIO1_D   	--    header_gpio1_output.export
         );
 
 end a;
