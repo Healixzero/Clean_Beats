@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Oct 23, 2013 9:04:18 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1382587458935</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Oct 26, 2013 7:16:13 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1382840173808</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>Z:\GitHub\Clean_Beats\software\Blinking_Lights_bsp</BspGeneratedLocation>
         <BspSettingsFile>.\settings.bsp</BspSettingsFile>
         <SopcDesignFile>Z:\GitHub\Clean_Beats\Qsys\Clean_Beats_Nios2.sopcinfo</SopcDesignFile>

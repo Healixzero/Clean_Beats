@@ -105,14 +105,12 @@ end CB_Top;
 
 architecture a of CB_Top is
 
-	signal BA_Comb		: std_logic_vector (1 downto 0 );
-	signal DQ_Comb		: std_logic_vector (1 downto 0 );
-
-	
-	DRAM_BA_0 	<= BA_Comb(0);
-	DRAM_BA_1 	<= BA_Comb(1);
-	DRAM_UDQM	<= DQ_Comb(1);
-	DRAM_LDQM	<= DQ_Comb(0);
+	signal BA_Comb		: std_logic_vector ( 1 downto 0 );
+	signal DQ_Comb		: std_logic_vector ( 1 downto 0 );
+	signal Hex0_Seg	: std_logic_vector ( 6 downto 0 );
+	signal Hex1_Seg	: std_logic_vector ( 6 downto 0 );
+	signal Hex2_Seg	: std_logic_vector ( 6 downto 0 );
+	signal Hex3_Seg	: std_logic_vector ( 6 downto 0 );
 
     component Clean_Beats is
         port (
@@ -145,32 +143,38 @@ architecture a of CB_Top is
 	 
 	 begin
 
+	DRAM_BA_0 	<= BA_Comb(0);
+	DRAM_BA_1 	<= BA_Comb(1);
+	DRAM_UDQM	<= DQ_Comb(1);
+	DRAM_LDQM	<= DQ_Comb(0);
+	HEX0_D		<= Hex0_Seg()
+	 
     NIOS_Core : component Clean_Beats
         port map (
-            clk_clk                     => CLOCK_50,                     --                    clk.clk
-            ram_controller_output_addr  => DRAM_ADDR,  --  ram_controller_output.addr
-            ram_controller_output_ba    => BA_Comb,    --                       .ba
-            ram_controller_output_cas_n => DRAM_CAS_N, --                       .cas_n
-            ram_controller_output_cke   => DRAM_CKE,   --                       .cke
-            ram_controller_output_cs_n  => DRAM_CS_N,  --                       .cs_n
-            ram_controller_output_dq    => DRAM_DQ,    --                       .dq
-            ram_controller_output_dqm   => DQ_Comb,   --                       .dqm
-            ram_controller_output_ras_n => DRAM_RAS_N, --                       .ras_n
-            ram_controller_output_we_n  => FL_WE_N,  --                       .we_n
-            sd_card_output_b_SD_cmd     => SD_CMD,     --         sd_card_output.b_SD_cmd
-            sd_card_output_b_SD_dat     => SD_DAT0,     --                       .b_SD_dat
-            sd_card_output_b_SD_dat3    => SD_DAT3,    --                       .b_SD_dat3
-            sd_card_output_o_SD_clock   => SD_CLK,   --                       .o_SD_clock
-            uart_controller_output_RXD  => UART_RXD,  -- uart_controller_output.RXD
-            uart_controller_output_TXD  => UART_TXD,  --                       .TXD
-            push_buttons_output_export  => BUTTON,  --    push_buttons_output.export
-            slider_switch_output_export => SW, --   slider_switch_output.export
-            leds_output_export          => LEDG,          --            leds_output.export
-            seven_seg_output_HEX0       => HEX0_D,       --       seven_seg_output.HEX0
-            seven_seg_output_HEX1       => HEX1_D,       --                       .HEX1
-            seven_seg_output_HEX2       => HEX2_D,       --                       .HEX2
-            seven_seg_output_HEX3       => HEX3_D,       --                       .HEX3
-            header_gpio1_output_export  => GPIO1_D   	--    header_gpio1_output.export
+            clk_clk                     => CLOCK_50,								--                    clk.clk
+            ram_controller_output_addr  => DRAM_ADDR,  							--  ram_controller_output.addr
+            ram_controller_output_ba    => BA_Comb,								--                       .ba
+            ram_controller_output_cas_n => DRAM_CAS_N,							--                       .cas_n
+            ram_controller_output_cke   => DRAM_CKE,								--                       .cke
+            ram_controller_output_cs_n  => DRAM_CS_N,								--                       .cs_n
+            ram_controller_output_dq    => DRAM_DQ,								--                       .dq
+            ram_controller_output_dqm   => DQ_Comb,								--                       .dqm
+            ram_controller_output_ras_n => DRAM_RAS_N,							--                       .ras_n
+            ram_controller_output_we_n  => FL_WE_N,								--                       .we_n
+            sd_card_output_b_SD_cmd     => SD_CMD,									--         sd_card_output.b_SD_cmd
+            sd_card_output_b_SD_dat     => SD_DAT0,								--                       .b_SD_dat
+            sd_card_output_b_SD_dat3    => SD_DAT3,								--                       .b_SD_dat3
+            sd_card_output_o_SD_clock   => SD_CLK,									--                       .o_SD_clock
+            uart_controller_output_RXD  => UART_RXD,								-- uart_controller_output.RXD
+            uart_controller_output_TXD  => UART_TXD,								--                       .TXD
+            push_buttons_output_export  => BUTTON,									--    push_buttons_output.export
+            slider_switch_output_export => SW,										--   slider_switch_output.export
+            leds_output_export          => LEDG,									--            leds_output.export
+            seven_seg_output_HEX0       => HEX0_D,									--       seven_seg_output.HEX0
+            seven_seg_output_HEX1       => HEX1_D,									--                       .HEX1
+            seven_seg_output_HEX2       => HEX2_D,									--                       .HEX2
+            seven_seg_output_HEX3       => HEX3_D,									--                       .HEX3
+            header_gpio1_output_export  => GPIO1_D									--    header_gpio1_output.export
         );
 
 end a;
