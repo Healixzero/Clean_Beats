@@ -107,10 +107,10 @@ architecture a of CB_Top is
 
 	signal BA_Comb		: std_logic_vector ( 1 downto 0 );
 	signal DQ_Comb		: std_logic_vector ( 1 downto 0 );
-	signal Hex0_Seg	: std_logic_vector ( 6 downto 0 );
-	signal Hex1_Seg	: std_logic_vector ( 6 downto 0 );
-	signal Hex2_Seg	: std_logic_vector ( 6 downto 0 );
-	signal Hex3_Seg	: std_logic_vector ( 6 downto 0 );
+	signal Hex0_Seg	: std_logic_vector ( 7 downto 0 );
+	signal Hex1_Seg	: std_logic_vector ( 7 downto 0 );
+	signal Hex2_Seg	: std_logic_vector ( 7 downto 0 );
+	signal Hex3_Seg	: std_logic_vector ( 7 downto 0 );
 
     component Clean_Beats is
         port (
@@ -147,7 +147,15 @@ architecture a of CB_Top is
 	DRAM_BA_1 	<= BA_Comb(1);
 	DRAM_UDQM	<= DQ_Comb(1);
 	DRAM_LDQM	<= DQ_Comb(0);
-	HEX0_D		<= Hex0_Seg()
+	HEX0_D		<= Hex0_Seg( 6 downto 0 );
+	HEX0_DP		<= Hex0_Seg(7);
+	HEX1_D		<= Hex1_Seg( 6 downto 0 );
+	HEX1_DP		<= Hex0_Seg(7);
+	HEX2_D		<= Hex2_Seg( 6 downto 0 );
+	HEX2_DP		<= Hex0_Seg(7);
+	HEX3_D		<= Hex3_Seg( 6 downto 0 );
+	HEX3_DP		<= Hex0_Seg(7);
+	
 	 
     NIOS_Core : component Clean_Beats
         port map (
@@ -170,10 +178,10 @@ architecture a of CB_Top is
             push_buttons_output_export  => BUTTON,									--    push_buttons_output.export
             slider_switch_output_export => SW,										--   slider_switch_output.export
             leds_output_export          => LEDG,									--            leds_output.export
-            seven_seg_output_HEX0       => HEX0_D,									--       seven_seg_output.HEX0
-            seven_seg_output_HEX1       => HEX1_D,									--                       .HEX1
-            seven_seg_output_HEX2       => HEX2_D,									--                       .HEX2
-            seven_seg_output_HEX3       => HEX3_D,									--                       .HEX3
+            seven_seg_output_HEX0       => Hex0_Seg,									--       seven_seg_output.HEX0
+            seven_seg_output_HEX1       => Hex1_Seg,									--                       .HEX1
+            seven_seg_output_HEX2       => Hex2_Seg,									--                       .HEX2
+            seven_seg_output_HEX3       => Hex3_Seg,									--                       .HEX3
             header_gpio1_output_export  => GPIO1_D									--    header_gpio1_output.export
         );
 
